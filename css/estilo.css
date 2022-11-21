@@ -1,0 +1,67 @@
+/********estrutura do site***********/
+
+body {
+    background:#f4f2ec url(../imagens/fundo.jpg) repeat-x; 
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+/******* CABEÇALHO**********/
+
+#container { 
+    width: 95%;
+    margin: auto;
+    background: url(../imagens/cabecalho.jpg) no-repeat center; 
+}
+header    {
+    padding: 10px 0;
+    height: 80px;
+
+}  
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    display: flex;  
+    float: center;  
+ 
+} 
+ul li {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 10px;
+    font-size: 1.2em; 
+    text-align: center;   
+}
+
+
+ /**
+
+header     {
+    width: 95%;
+    height: 240px;
+    background:rgb(0, 0, 0); 
+    margin: 10px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;;
+    flex-wrap: wrap;
+    color: white;  
+}
+article {
+    width: 90%;
+    height: 120PX;    
+    background:rgba(22, 19, 209, 0.288); 
+    margin: 10px auto;
+    padding: 15px;
+}
+
+ .menu {
+    display: flex;
+ }
+ 
+
+
+/******* CONFIGURAÇÃO CORPO**********/
+ 
