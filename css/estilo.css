@@ -7,17 +7,20 @@ body {
 
 /******* CABEÇALHO**********/
 
+ 
 #container { 
     width: 95%;
-    margin: auto;
-    background: url(../imagens/cabecalho.jpg) no-repeat center; 
+    margin: 0 auto;
+    background: url(../imagens/fundo.jpg) no-repeat center; 
+    border-radius: yellow;
 }
-header    {
-    padding: 10px 0;
-    height: 80px;
-
-}  
-
+ 
+#logo {
+    width: 50%;
+    margin: 100px;
+    background: url(../imagens/logo.jpg) no-repeat;
+}
+/**
 nav ul {
     list-style: none;
     margin: 20px;
@@ -37,18 +40,7 @@ ul li {
 
  /**
 
-header     {
-    width: 95%;
-    height: 240px;
-    background:rgb(0, 0, 0); 
-    margin: 10px auto;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;;
-    flex-wrap: wrap;
-    color: white;  
-}
+
 article {
     width: 90%;
     height: 120PX;    
